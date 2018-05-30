@@ -1,0 +1,1710 @@
+/*===========================
+Template Name: Twist
+Author: Riazul
+=============================*/
+
+
+
+/*===========================
+--------------------
+CSS Index
+--------------------
+
+
+***** Fonts
+***** Base CSS
+***** Padding, Margin 
+***** Background Imaages
+***** Menu CSS
+***** MMobile Menu CSS
+***** Header CSS
+***** Hero Area CSS
+***** Breadcromb CSS
+***** Owl Carousel CSS
+***** Promo Area CSS
+***** Service Area CSS
+***** Counter Area CSS
+***** CTA Area CSS
+***** Portfolio Area CSS
+***** Team Area CSS
+***** Testimonial Area CSS
+***** Sponsor Area CSS
+***** Register Form CSS
+***** Blog Area CSS
+***** Nav Menu Widget CSS
+***** FAQ Area CSS
+***** Pagination CSS
+***** Search Widget CSS
+***** Recent Post Widget CSS
+***** Blog Content CSS
+***** Blog Comment CSS
+***** Contact Area CSS
+***** Map Area CSS
+***** Footer Area CSS
+
+
+=============================*/
+
+
+
+
+/*===========================
+Fonts
+=============================*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+
+/*===========================
+Base CSS
+=============================*/
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #888888;
+    line-height: 1.7;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #373737;
+    line-height: 1.4;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+.section-padding h4, .service-item h4 {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.error-txt-content h1 {
+    color: #0AB9BF;
+    font-size: 60px;
+    text-shadow: 0px 4px 5px #0AB9BF;
+}
+
+
+
+
+a:hover,
+a:focus {
+    text-decoration: none
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+.play-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #0ABAC0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 55px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.boxed-btn {
+    color: #fff;
+    background-color: #0ABAC0;
+    padding: 10px 30px;
+    display: inline-block;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.boxed-btn:hover{
+    color: #0ABAC0;
+    background-color: #373737;
+}
+
+.boxed-btn i {
+    padding-left: 10px;
+}
+
+.error-txt-content .boxed-btn {
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+
+
+input,textarea,button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D0D0D0;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+
+
+button[type="submit"],input[type="submit"] {
+    width: auto;
+    background-color: #0ABAC0;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+
+
+.gray-bg {
+    background-color: #FAFAFA;
+}
+
+
+.black-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.black-overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: #000;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+.widget {
+    background-color: #FAFAFA;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.widget .boxed-btn {
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/*===========================
+Padding, Margin
+=============================*/
+
+.section-padding {
+    padding: 100px 0px;
+}
+
+.no-padding-top {
+    padding-top: 0px;
+}
+
+.spacer-90 {
+    height: 90px;
+}
+
+.spacer-25 {
+    height: 30px;
+}
+.spacer-40{
+    height: 40px;
+}
+
+.spacer-70 {
+    height: 70px;
+}
+
+.spacer-50 {
+    height: 50px;
+}
+
+.margin-80 {
+    margin: 80px 0px;
+}
+
+.margin-t30 {
+    margin-top: 30px;
+}
+
+
+.about-txt
+ .boxed-btn {
+    margin-top: 20px;
+}
+
+
+/*===========================
+Background Images
+=============================*/
+
+
+
+.hero-area{background-image: url(../img/hero-bg.jpg);}
+.slide-bg-1 {background-image: url(../img/banner-1.jpg);}
+.slide-bg-2 {background-image: url(../img/banner-2.jpg);}
+.slide-bg-3 {background-image: url(../img/banner-3.jpg);}
+.cta-bg-1 {background-image: url(../img/cta-bg.jpg);}
+.section-bg-2 {background-image: url(../img/testimonial-bg.jpg);}
+.section-bg-3 {background-image: url(../img/cta-bg-3.jpg);}
+.service-bg:before {background-image: url(../img/service-bg-img.jpg);}
+.portfolio-bg-1 {background-image: url(../img/portfolio-1.jpg);}
+.portfolio-bg-2 {background-image: url(../img/portfolio-2.jpg);}
+.portfolio-bg-3 {background-image: url(../img/portfolio-3.jpg);}
+.portfolio-bg-4 {background-image: url(../img/portfolio-4.jpg);}
+.cta-bg-2 {background-image: url(../img/cta-bg-2.jpg)}
+.breadcromb-bg-1 {background-image: url(../img/cta-bg-2.jpg)}
+.breadcromb-bg-2 {background-image: url(../img/cta-bg-2.jpg)}
+.breadcromb-bg-3 {background-image: url(../img/cta-bg-2.jpg)}
+.blog-image-1 {background-image: url(../img/blog-1.jpg)}
+.blog-image-2 {background-image: url(../img/blog-2.jpg)}
+.blog-image-3 {background-image: url(../img/blog-3.jpg)}
+.blog-image-4 {background-image: url(../img/blog-4.jpg)}
+.blog-image-5 {background-image: url(../img/blog-5.jpg)}
+.contact-box{background-image: url(../img/about-img-2.jpg);}
+
+
+/*===========================
+Menu CSS
+=============================*/
+
+.main-menu ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu ul li a {
+    padding: 15px;
+    transition: 0.3s;
+}
+.main-menu ul li a:hover {
+    color: #0ABAC0;
+}
+
+.main-menu {
+    padding: 15px;
+}
+
+.main-menu ul li ul {
+    position: absolute;
+    left: 0;
+    background-color: #000;
+    border-radius: 2px;
+    top: 70px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    width: 220px;
+}
+.main-menu ul li ul li a:hover {
+    color: #fff;
+}
+
+.main-menu ul li ul a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.main-menu ul li ul li {
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.main-menu ul li ul li:hover > a {
+    background-color: #0ABAC0;
+}
+
+
+.main-menu ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 30px;
+}
+.main-menu ul li:hover ul   ul {
+    left: 220px;
+    opacity: 0;
+    visibility:hidden;
+}
+.main-menu ul  ul li:hover >  ul {
+    top:0;
+    visibility: visible;
+    opacity: 1;
+}
+
+.main-menu ul li.mega-menu {
+    position: static;
+}
+
+.main-menu ul li.mega-menu
+ > ul {
+    width: 100%;
+    padding: 20px;
+    top: 40px;
+}
+
+.main-menu ul li.mega-menu:hover
+ ul ul {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    position:relative;
+    width:100%
+}
+
+.main-menu ul li.mega-menu
+ ul ul {
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+
+.main-menu ul li.mega-menu
+ ul li a {
+    padding-left: 0;
+}
+
+.main-menu ul li.mega-menu ul li:hover  a {
+    background: none;
+}
+.main-menu ul li.mega-menu ul li  a:hover {
+    color: #0CBBC0;;
+}
+
+.main-menu ul li.mega-menu
+ ul li h5 {
+    color:#0CBBC0;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/*===========================
+Mobile Menu CSS
+=============================*/
+
+.slicknav_menu {
+    background: none;
+    text-align: center;
+}
+
+.slicknav_btn {
+    background: none;
+    display:inline-block;
+    float:none;
+}
+
+.slicknav_nav {
+    background-color: #0BBBC0;
+    width: 250%;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    margin-left: -125%;
+}
+
+.slicknav_nav .slicknav_row:hover {
+    background: none;
+    border-radius: 0px;
+}
+
+.slicknav_nav a:hover {
+    background: none;
+    opacity: 0.9;
+}
+
+.slicknav_item.slicknav_row {
+    border-bottom: 1px solid #fff;
+    margin:0;
+}
+
+.slicknav_nav ul {
+    margin: 0;
+}
+
+.slicknav_nav ul li a:hover {
+    background-color:#333;
+    border-radius:0px;
+}
+
+.slicknav_nav ul h5 {
+    margin-top: 10px;
+}
+
+
+
+/*===========================
+Header CSS
+=============================*/
+.header-area {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.header-area a {
+    color: #333;
+}
+
+.header-area.absolute-header {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-area.absolute-header a {
+    color: #fff;
+}
+
+.logo {
+    margin-top: 11px;
+}
+
+.logo img {
+    margin-right: 5px;
+}
+
+.search-icon {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+/*===========================
+Hero Area CSS
+=============================*/
+
+.hero-area {
+    background-size:cover;
+    background-color: #000;
+    background-position: center center;
+    padding: 180px 0px 130px;
+}
+
+.hero-txt {
+    margin-top: 140px;
+}
+
+.hero-txt
+ h1 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+
+.silde-content h2 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.single-slide {
+    position: relative;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.single-slide:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.46;
+}
+
+.silde-content {
+    color: #fff;
+    font-size: 16px;
+    margin: 160px 0px;
+}
+
+.silde-content a {
+    color: #fff;
+}
+
+.silde-content h2 span {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.slide-video {
+    display: block;
+    position: relative;
+    margin: 30px 0px;
+}
+.section-bg-2 {
+    background-size: cover;
+    background-position: center center;
+    background-color: #0ABAC0;
+}
+
+
+
+/*===========================
+Breadcromb CSS
+=============================*/
+
+
+.breadcromb-area {
+    padding: 180px 0px 130px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.breadcromb-area h4 {
+    font-size: 36px;
+     color: #fff;
+}
+
+.breadcromb-area a {
+    color: #fff;
+}
+.breadcromb-area i {
+    padding: 0px 8px;
+}
+
+
+
+
+
+/*===========================
+Owl Carousel CSS
+=============================*/
+
+
+.owl-carousel .owl-item .single-team-member img {
+    width: auto;
+    display: inline-block;
+}
+
+
+.owl-carousel .owl-item .single-slide img {
+    width: auto;
+    display: inline-block;
+}
+
+.owl-carousel .owl-nav div {
+    position: absolute;
+    left: 7%;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    top: 50%;
+    line-height: 60px;
+    margin-top: -30px;
+}
+
+.owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 7%;
+}
+
+
+
+.owl-dots div {
+    background-color: #EDEDED;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.owl-dots div.active {
+    background-color: #0ABAC0;
+}
+
+
+.owl-carousel .owl-item .single-brand img {
+    width: auto;
+}
+
+
+
+/*===========================
+Promo Area CSS
+=============================*/
+
+.promo-icon {
+    padding: 40px 0px 20px;
+    font-size: 24px;
+    color: #0ABAC0;
+}
+
+.promo-gallery-tile {
+    position: relative;
+    margin-left: 30px;
+    height: 700px;
+}
+
+.promo-gallery-tile img {
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 3px 5px 10px #D9D9D9;
+    z-index: 1;
+}
+
+.promo-gallery-tile img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    z-index: 2;
+}
+
+.promo-gallery-tile img:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    z-index: 3;
+}
+
+/*===========================
+Service CSS
+=============================*/
+
+.service-bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.service-bg:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 51.15%;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-item {
+    display: block;
+    position: relative;
+    color: #888;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.service-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 85px;
+    color: #0ABAC0;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+.service-item:hover {
+    background-color: #0ABAC0;
+    color: #fff;
+}
+
+.service-item:hover .service-icon,
+.service-item:hover h4 {
+    color: #fff;
+}
+
+.service-icon-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.service-icon-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.service-item:hover:after {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 5000px;
+    height: 100%;
+    content: "";
+    background-color: #0ABAC0;
+}
+
+
+.service-ticker {
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.service-box-icon {
+    color: #0ABAC0;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.service-box:hover {
+    background-color: #FAFAFA;
+}
+
+.service-box {
+    padding: 50px 20px;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+
+.service-description h3 {
+    margin-top: 40px;
+}
+
+.service-icon-2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+
+
+/*===========================
+Counter Area CSS
+=============================*/
+
+.single-counter {
+    position: relative;
+}
+
+.count-number {
+    font-size: 40px;
+    font-weight: 700;
+    color: #373737;
+    font-family: 'Zilla Slab', serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+
+.single-progress-bar {
+    margin-top: 60px;
+}
+
+.single-progress-bar h3 {
+    margin-top: 30px;
+}
+
+
+/*===========================
+CTA Area CSS
+=============================*/
+
+.cta-bg-1, .cta-bg-2 {
+    background-size: cover;
+    background-position: center center;
+}
+
+.black-overlay h2,.black-overlay p {
+    color: #fff;
+}
+
+
+/*===========================
+Portfolio Area CSS
+=============================*/
+
+
+.single-portfolio-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0bbbc1;
+    background-position: center center;
+    height: 310px;
+    margin: 20px 0px;
+    box-shadow: 0px 5px 8px #d8d8d8;
+    position: relative;
+}
+
+.single-portfolio-item.big {
+    height: 660px;
+}
+
+.portfolio-content-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.portfolio-content-hover:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.portfolio-content-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio.content-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.portfolio-content-hover a,
+.portfolio-content-hover h3 {
+    color: #fff;
+}
+
+.portfolio-content-hover h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.single-portfolio-item:hover .portfolio-content-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.portfolio-filter {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    text-align: center;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+
+.portfolio-filter li.active {
+    color: #0ABAC0;
+}
+.project-image {
+    box-shadow: 0px 3px 10px #d3d3d3;
+}
+
+
+
+/*===========================
+Team Area CSS
+=============================*/
+
+.team-list {
+    margin-top: 70px;
+}
+
+.single-team-member {
+    background-color: #FAFAFA;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px #f3f3f3;
+    border-radius: 5px;
+}
+
+
+.single-team-member img {
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.our-team-area  .single-team-member img {
+    margin-bottom: 40px;
+}
+
+.single-team-member h4 span {
+    display: block;
+    color: #888888;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.single-team-member h4 {
+    margin: 40px 0px 30px;
+    color: #333;
+}
+
+
+.team-2 .single-team-member {
+    box-shadow: 0px 0px 5px 3px #f3f3f3;
+    border: 2px solid #FAFAFA;
+    margin: 20px 0px;
+}
+
+.team-2 .single-team-member:hover {
+    border: 2px solid #0ABAC0;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+
+
+
+/*===========================
+Testimonial Area CSS
+=============================*/
+
+.single-testimonial {
+    background-color: #FFFFFF;
+    color: #000;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px 25px;
+    border-radius: 5px;
+}
+.single-testimonial p {
+    color: #333;
+}
+
+.qoute {
+    color: #0ABAC0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.single-testimonial h5 {
+    margin: 30px 0px 0px;
+}
+
+.single-testimonial h5 span {
+    display: block;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.testimonial-list {
+    margin-top: 80px;
+}
+.testmonial-area .single-testimonial {
+    box-shadow: 0 0 5px #ddd;
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+/*===========================
+Sponsor Area CSS
+=============================*/
+
+
+
+.single-brand {
+    display: table;
+    width: 200px;
+    height: 160px;
+}
+
+.brand-img-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+/*===========================
+Register Form CSS
+=============================*/
+
+.register-form {
+    background-color: #FFFFFF;
+    padding: 60px;
+    border-top: 9px solid #0ABAC0;
+    border-radius: 5px;
+}
+
+.register-form h3 {
+    color: #000;
+    margin-bottom: 60px;
+    margin-top: -20px;
+}
+
+.register-form h3 span {
+    color: #e60909;
+}
+.register-form p:last-child {
+    margin-bottom: 0;
+}
+
+.register-form button[type="submit"] {
+    width: 100%;
+}
+
+
+
+/*===========================
+Blog Area CSS
+=============================*/
+
+
+
+.blog-box {
+    box-shadow: 0px 0px 5px 3px #F2F2F2;
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.blog-box a {
+    color: #0bbbc1;
+    font-weight: 700;
+}
+
+.blog-box a i {
+    margin-left: 5px;
+}
+
+
+.blog-image {
+    height: 300px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.single-blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-read-more-btn {
+    color: #0ABAC0;
+    font-weight: 700;
+}
+
+.blog-text {
+    padding-top: 45px;
+}
+
+
+
+
+
+
+
+/*===========================
+Nav Menu Widget CSS
+=============================*/
+
+
+.widget.nav_menu {
+    background-color: transparent;
+    padding: 0;
+}
+
+.nav_menu
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+.nav_menu
+ li a {
+    background-color: #FAFAFA;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+    padding: 15px 35px;
+    display: block;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.nav_menu
+ li a:hover,.nav_menu
+ li a.active {
+    background-color: #0ABAC0;
+    color: #fff;
+}
+
+
+
+
+
+/*===========================
+FAQ Area CSS
+=============================*/
+
+
+.twist-faq .panel-heading {
+    padding: 0;
+}
+
+.twist-faq .panel-heading a {
+    display: block;
+    padding: 10px 50px 10px 10px;
+    position: relative;
+    color: #333;
+}
+
+.twist-faq.panel-group .panel.panel-default .panel-body {
+    border: none;
+}
+
+.twist-faq .panel-default .panel-heading {
+    background-color: transparent;
+}
+
+.twist-faq.panel-group .panel {
+    background-color: #FAFAFA;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #E9E5EF;
+    border-radius: 0px;
+}
+
+.twist-faq .panel-default .panel-heading a:after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #0ABAC0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 29px;
+    margin-top: -15px;
+    right: 10px;
+    border-radius: 3px;
+}
+
+
+
+
+.twist-faq .panel-default .panel-heading a[aria-expand="true"]:after {
+    content: "-";
+}
+
+.panel-heading h4 {
+    font-size: 18px;
+}
+
+.twist-faq .panel-default .panel-heading a[aria-expanded="true"]:after {
+    content: "-";
+}
+
+
+/*===========================
+Pagination CSS
+=============================*/
+
+ul.pagination>li>a, ul.pagination>li>span {
+    border: none;
+    background-color: #F8F8F8;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 38px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    color: #000;
+    border-radius: 50%;
+}
+
+ul.pagination>li:first-child>a, ul.pagination>li:first-child>span {
+    border-radius: 50%;
+}
+
+ul.pagination>li:last-child>a, ul.pagination>li:last-child>span {
+    border-radius: 50%;
+}
+
+ul.pagination>li>a:hover, ul.pagination>li>span:hover {
+    background-color: #0ABAC0;
+    color: #fff;
+}
+
+
+ul.pagination>li:first-child>a.active {
+    background-color: #0ABAC0;
+    color: #fff;
+}
+
+/*===========================
+Search Widget CSS
+=============================*/
+
+.search-widget {
+    background: none;
+    padding: 0;
+}
+
+.widget-search-box {
+    box-shadow: 0px 0px 5px #F1EFF5;
+    padding: 5px;
+}
+
+.widget-search-box input {
+    border: none;
+    width: 85%;
+    margin: 0;
+}
+
+.widget-search-box button {
+    float: right;
+    background: none;
+    color: #333;
+}
+
+
+/*===========================
+Recent Post Widget CSS
+=============================*/
+
+
+
+.recent-post-widget {
+    background: none;
+}
+
+.recent-post-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.recent-post-widget ul li {
+    border-bottom: 1px solid #E3E3E3;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.recent-post-widget ul li .align-left {
+    float: left;
+}
+
+.recent-post-widget ul li .blog-thumb img {
+    border-radius: 50%;
+}
+
+.recent-post-widget ul li .blog-thumb {
+    padding-right: 20px;
+}
+
+.recent-post-widget h3 a {
+    font-size: 20px;
+    color: #000;
+}
+
+.recent-post-widget ul {
+    padding-top: 25px;
+}
+
+.recent-post-widget ul li:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+
+
+/*===========================
+Blog Content CSS
+=============================*/
+
+.blog-featured-content {
+    margin-bottom: 70px;
+}
+
+.blog-content-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.entry-content p {
+    margin-bottom: 30px;
+}
+
+blockquote {
+    font-size: 14px;
+    border: none;
+    background-color: #FAFAFA;
+    margin: 0 20px 30px 70px;
+    padding: 25px 100px 25px 60px;
+}
+
+.blog-scocial-share {
+    margin-bottom: 50px;
+}
+
+.blog-scocial-share a {
+    display: inline-block;
+    padding: 10px 22px;
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+
+.blog-scocial-share a i.fa {
+    margin-right: 10px;
+}
+
+.blog-scocial-share .facebook-share-btn {
+    background-color: #285BA8;
+}
+
+.blog-scocial-share 
+ .twitter-share-btn {
+    background-color: #29C7EF;
+}
+
+.blog-scocial-share 
+ .pinterest-share-btn {
+    background-color: #D5071E;
+}
+
+
+
+.post-author-avatar img {
+    border-radius: 50%;
+}
+
+.post-author h3 {
+    font-size: 16px;
+}
+
+.entry-content {
+    margin-bottom: 50px;
+}
+
+.post-author {
+    margin-bottom: 50px;
+}
+
+
+/*===========================
+Blog Comment CSS
+=============================*/
+.comment-list {
+    margin-bottom: 50px;
+}
+
+.comment-title, .comment-form-title {
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.comment-title:after, .comment-form-title:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #0ABAC0;
+    content: "";
+}
+
+.comment ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.single-comment {
+    background-color: #FAFAFA;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 30px;
+    padding-left: 110px;
+}
+
+.comment-author-avatar img {
+    border-radius: 50%;
+}
+
+.comment-author-avatar {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.comment-meta {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.comment-meta h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #333;
+}
+
+.comment-date {
+    font-size: 12px;
+}
+
+.replay-btn {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    color: #000;
+    transition: 0.3s;
+}
+
+.replay-btn:hover {
+    color: #29C7EF;
+}
+
+
+.comment-form input[type="text"],.comment-form input[type="email"],.comment-form input[type="url"],.comment-form textarea {
+    border: 1px solid #B9B9B9;
+}
+
+.comment-form textarea {
+    height: 120px;
+}
+
+.comment-form button[type="submit"] {
+    padding: 12px 18px;
+}
+
+
+/*===========================
+Contact Area CSS
+=============================*/
+.contact-box {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+    padding: 80px 65px;
+}
+
+.contact-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: "";
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.contact-box,.contact-box h2,.contact-box h3 {
+    color: #fff;
+}
+
+.contact-box h2 {
+    font-size: 28px;
+}
+
+.single-contact-info {
+    margin-top: 30px;
+}
+
+.single-contact-info h3 {
+    font-size: 20px;
+}
+
+.contact-form {
+    padding: 50px 0px 0px 30px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+
+/*===========================
+Map CSS
+=============================*/
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+/*===========================
+Footer Area CSS
+=============================*/
+
+.footer {
+    background-color: #F4F4F4;
+    padding: 80px 0px;
+}
+
+
+
+.footer .logo a {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.footer .logo {
+    margin-bottom: 30px;
+}
+
+.footer-link ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+
+.footer-link {
+    margin-top: 25px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+
+.footer-link ul a {
+    color: #373737;
+    font-size: 16px;
+}
+
+.footer.social-link {
+    margin-top: 25px;
+}
+
+.social-link {
+    margin-top: 30px;
+}
+
+.social-link h4 {
+    font-size: 20px;
+}
+
+.social-link a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #171717;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    color: #373737;
+    margin-right: 10px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+
+.social-link a:hover {
+    color: #fff;
+    background-color: #0ABAC0;
+    border: 1px solid #0ABAC0;
+}
+
+
+.footer.black-bg {
+    background-color: #121212;
+    color: #fff;
+}
+
+.footer.black-bg a,.footer.black-bg h4{
+    color: #fff;
+}
+
+.footer.black-bg .social-link a {
+    border: 2px solid #fff;
+}
